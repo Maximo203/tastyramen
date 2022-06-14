@@ -20,6 +20,8 @@ nav {
     width: 145px;
 }
 
+
+
 .listnavigation {
     list-style: none;
     display: flex;
@@ -27,9 +29,13 @@ justify-content: space-around;
 align-items: center;
     font-family:'kanit', sans-serif; ;
     font-size: 30px;
-    color: #FFFFEA;
+    color: #FF5E5B;
     position: absolute;
 margin-left: 250px;}
+
+.li {
+    color: #FFFFEA;
+}
 
 
 
@@ -113,33 +119,204 @@ margin-left: 250px;
 }
 
 
-.sectioninfo {
-    background-color: #FF5E5B;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-    height: 500px;
-    padding: 0%;
-    margin: 0%;
-    width: 100vw;
-    margin-right: 0%;
-    margin-left: 0%;
-    right: 0%;
-    top: 0%;
-    left: 0%;
-    bottom: 0%;
-    font-family: 'kanit', sans-serif;
-    }
 
-.sectioninfo h4 {
-    font-size: 2em;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    color: #FFFFEA;
+.sectioninfo {
+background-color: #FF5E5B;
+font-family: 'kanit', sans-serif;
+font-size: 1.5em;
+color: #FFFFEA;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border-radius: 50px;
+margin-top: 80px;
+
 }
 
+.sectioninfo p {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    margin: 20px;
+flex-direction: column;
+}
+
+.seccion2 {
+    background-color: #FF5E5B;
+    margin-top: 80px;
+    border-radius: 50px;
+    font-family: 'kanit', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.7em;
+
+
+}
+
+.seccion2 h2 {
+    color: #FFED66;
+    margin: 0%;
+
+}
+.seccion2 p {
+margin: 0%;
+padding: 0%;
+color: #FFFFEA;
+}
+
+.containerinfo h3 {
+    color: #FFED66;
+}
+
+.seccion2 img {
+    width: 200px;
+}
+
+.ALIMENTOS {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.containerinfo {
+    display: flex;
+    justify-content: center
+    
+    
+
+}
+
+.containerinfo p {
+    font-size: 20px;
+    margin: 20px;
+
+}
+
+.containerinfo img {
+    margin-right: 80px;
+}
+
+
+.containerinfo h3 {
+    margin-right: 55px;
+}
+
+
+
+.pollo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.picante {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bife {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.seccion3 {
+    background-color: #FF5E5B;
+    margin-top: 80px;
+    border-radius: 50px;
+    font-family: 'kanit', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: 1.7em;
+color: #FFFFEA;
+}
+    
+
+
+    .seccion3 h2 {
+        color: #FFED66;
+    }
+
+.seccion3 img {
+    width: 200px;
+}
+
+.pedido2 {
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+flex-direction: row;
+}
+
+.containerimginfo {
+width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: row;
+font-size: 20px;
+}
+
+.containerimginfo p {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.moto p {
+    margin-bottom: 48px;
+}
+
+.moto  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.moto img {
+    margin-right: 70px;
+}
+
+
+.containerimginfo img {
+    margin-left: 40px;
+}
+
+.documento img {
+    margin-left: 74px;
+    
+}
+
+.ramen img {
+    margin: 0px;
+    margin-left: 30px;
+}
 
