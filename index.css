@@ -482,18 +482,13 @@ margin: 30px;
     width: 80px;
 }
 
-@media (max-width: 1425px) {
-    .seccion2 {
-        margin-left: 7px;
-    }
+
 
     .seccion3 {
         margin-left: 7px;
     }
 
-    .navigationbar {
-        width: 120vw;
-    }
+ 
    
     .ramen3d img {
         width: 480px;
@@ -503,7 +498,7 @@ margin: 30px;
     
 
     
-}
+
 
 
 
