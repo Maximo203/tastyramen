@@ -1,13 +1,13 @@
+
 nav {
     width: 30%;
 }
 
 .navigationbar {
-    box-sizing: border-box;
     background-color: #FF5E5B;
     margin: 0%;
     width: 100vw;
-    height: 150px;
+    height: 100px;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -17,7 +17,7 @@ nav {
     position: absolute;
     left: 50px;
     top: 2px;
-    width: 145px;
+    width: 120px;
 }
 
 
@@ -27,7 +27,7 @@ nav {
     justify-content: space-around;
     width: 42%;
     font-family:'kanit', sans-serif; ;
-    font-size: 30px;
+    font-size: 25px;
     position: absolute;
     margin-left: 250px;
 
@@ -37,6 +37,12 @@ nav {
 color: #FFED66;
 text-decoration: none;
 
+}
+
+.listnavigation a:hover {
+    cursor: pointer;
+    color: #f3de41;
+    text-decoration: underline;
 }
 
 .header {
@@ -76,14 +82,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 12%;
+    margin-top: 7%;
     font-size: 2.2em;
     font-family: 'kanit', sans-serif;
+
 }
 
+
+
+
 .conteiner-header img {
-    width: 40%;
+    width: 550px;
 }
+
+
 
 .conteiner-atrapalos {
     display: flex;
@@ -92,9 +104,20 @@ body {
     flex-direction: column;
     text-align: center;
     color: #e6625f;
-
+    margin: 0%;
+    animation-name: atrapalos;
+    animation-duration: 1.5s;
   
 }
+
+@keyframes atrapalos {
+    from {margin-top: 1000px;}
+    to {width: 100%}
+    }
+
+
+
+
 
 .conteiner-atrapalos img {
     width: 650px;
@@ -114,20 +137,22 @@ body {
     background-color:#FFED66;
     cursor: pointer;
     transition: 0.5s;
+    transform: scale(0.95);
 }
 
 .conteiner-atrapalos button {
-width:  30%;
 height: 50px;
 color: #FFED66;
 background-color: #00CECB;
 border: 0;
 outline: 0;
-border-radius: 10px;
+border-radius: 15px;
 font-size: 30px;
 font-weight: bolder;
 margin-left: 80px;
 margin-bottom: 50px;
+box-shadow: 0px 4px #FF5E5B;
+
 
 }
 
@@ -281,7 +306,6 @@ text-align: center;
 width: 100%;
 display: flex;
 justify-content: space-around;
-align-items: center;
 flex-direction: row;
 font-size: 20px;
 }
@@ -318,3 +342,178 @@ margin-left: 5px;
 .vaso img {
     margin-left: 20px;
 }
+
+.otros-disenos {
+ background-color: #FFED66;
+ font-family:'kanit', sans-serif;
+ font-size: 1.5em;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ align-content: center;
+ flex-direction: column;
+ border-radius: 80px;
+ width: 80%;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 80px;
+ color: #FF5E5B;
+}
+
+.otros-disenos h2 {
+margin: 20px;
+margin-bottom: -2px;
+padding: 0%;
+}
+
+.otros-disenos p {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: row
+}
+
+.card img {
+    width: 170px;
+    margin: 30px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px #00CECB;
+}
+
+.web {
+    height: 115px;
+}
+
+.card img:hover {
+    cursor: pointer;
+    transform: scale(1.07);
+    transition: 00.5s;
+    margin: 0%;
+    padding: 0%;
+}
+
+.contacto {
+    background-color: #FFED66;
+    font-family:'kanit', sans-serif;
+    font-size: 1.5em;
+    border-radius: 80px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    color: #FF5E5B;
+    text-decoration: underline 5px #e6625f;
+
+  
+ 
+
+
+    
+}
+
+.contacto img {
+    width: 100px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+
+}
+
+.contacto p {
+    display: inline-flex;
+    margin: 0%;
+    padding: 0%;
+    font-size: 1.2em;
+position: absolute;
+margin: 30px;
+}
+
+.contacto p:hover {
+    cursor: pointer;
+    font-size: 1.3em;
+    transition: 0.5s;
+
+}
+
+.contacto h2 {
+    margin-left: 70px;
+}
+
+.ramen3d {
+    width: 580px;
+    height: 500px;
+    margin-left: 32%;
+    position: absolute;
+}
+.ramen3d img {
+    width: 520px;
+    height: 450px;
+    border-radius: 100px;
+    margin: 0%;
+    padding: 0%;
+
+    
+}
+
+
+
+.footer {
+    background-color: #FF5E5B;
+    box-sizing: border-box;
+    position: absolute;
+    height: 80px;
+    width: 100vw;
+    margin-top: 80px;
+    margin-left: -8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+
+}
+
+.footer img {
+    width: 80px;
+}
+
+@media (max-width: 1425px) {
+    .seccion2 {
+        margin-left: 7px;
+    }
+
+    .seccion3 {
+        margin-left: 7px;
+    }
+
+    .navigationbar {
+        width: 120vw;
+    }
+   
+    .ramen3d img {
+        width: 480px;
+        height: 400px;
+        margin-top: 50px;
+    }
+    
+
+    
+}
+
+
+
+
+    
+
+
+
+
+
+
+
+
